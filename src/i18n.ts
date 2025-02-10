@@ -1,7 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import jaTranslation from './locales/ja/translation.json';
+
 import enTranslation from './locales/en/translation.json';
+import jaTranslation from './locales/ja/translation.json';
 
 const getInitialLanguage = () => {
   try {

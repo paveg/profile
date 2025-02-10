@@ -1,7 +1,8 @@
+import { useTranslation } from "react-i18next"
+
+import { LanguageSwitcher } from "./components/language-switcher"
 import { ThemeProvider } from "./components/theme-provider"
 import { Button } from "./components/ui/button"
-import { useTranslation } from "react-i18next"
-import { LanguageSwitcher } from "./components/language-switcher"
 
 function App() {
   const { t } = useTranslation()
